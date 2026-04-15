@@ -9,7 +9,7 @@
 
 Hi — I built a working prototype of the core workflow before writing this, so you can click and see it before we talk:
 
-**Live demo:** https://<YOUR-VERCEL-URL>
+**Live demo:** https://test-claude-env.vercel.app
 
 It shows the whole loop you described: listings flowing in from a live feed, deal-score evaluation against market value, AI-drafted first message, and a CRM pipeline (New → Contacted → Negotiation → Acquired). Mock data for now, but the architecture is production-ready.
 
@@ -45,7 +45,7 @@ I read the scope carefully and noticed two things most bidders will miss:
 2. **Craigslist and Facebook Marketplace actively block scraping.** A scraper will work for 2 weeks, then your IPs get banned and you're back on Upwork hiring someone to fix it. I use official APIs (Marketcheck, Auto.dev) + a browser extension for sites without APIs.
 
 Before writing this I built a clickable prototype so you can see the flow:
-**https://<YOUR-VERCEL-URL>**
+**https://test-claude-env.vercel.app**
 
 [Rest of proposal same as Version A, sections 1/2/3]
 
@@ -56,7 +56,7 @@ Before writing this I built a clickable prototype so you can see the flow:
 ### What to customize before sending
 - `[one line about your most relevant project]` — pick your strongest lead-gen or scraping project
 - `— [Your name]`
-- After Vercel deploy, replace `<YOUR-VERCEL-URL>` in both versions
+- Live URL: https://test-claude-env.vercel.app
 
 ### Why this wins vs 15-20 other bids
 1. **You attached a working demo.** 95% of bidders send a template. You sent a URL.
